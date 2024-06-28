@@ -180,7 +180,7 @@ let signName = function(client, name){
 												Zeus_user.create({'uid': client.UID});
 												XocXoc_user.create({'uid': client.UID});
 												MegaJP_user.create({'uid': client.UID});
-												Message.create({'uid': client.UID, 'title':'Thành Viên Mới', 'text':'contact tele @thanhphong9595 - Cổng game hàng đầu Châu Á, chúc bạn chơi game vui vẻ, thắng lớn...', 'time':new Date()});
+												Message.create({'uid': client.UID, 'title':'Thành Viên Mới', 'text':'contact tele @tinh3112 - Cổng game hàng đầu Châu Á, chúc bạn chơi game vui vẻ, thắng lớn...', 'time':new Date()});
 												GameState(client);
 												client.red(data);
 											}
